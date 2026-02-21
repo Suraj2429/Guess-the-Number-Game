@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // IMPORTANT: Replace with your repository name
-    base: '/GUESS-THE-NUMBER/',
+    base: '/Guess-the-Number-Game/',
 
     plugins: [
       react(),
