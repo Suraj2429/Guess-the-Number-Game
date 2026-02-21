@@ -1,0 +1,5 @@
+{
+  "name": "Guess the Number",
+  "description": "A sleek and interactive number guessing game with animations and high-score tracking.",
+  "requestFramePermissions": []
+}
