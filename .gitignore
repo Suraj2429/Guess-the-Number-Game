@@ -1,24 +1,50 @@
+# Dependencies
 node_modules/
+.pnp/
+.pnp.js
+
+# Build output
 dist/
 build/
+
+# Environment files
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# IDE / Editor
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# TypeScript
 *.tsbuildinfo
+
+# Coverage
 coverage/
-.tmp/
-.temp/
-.vite/
-.cache/
+
+# GitHub Pages (if manually deploying before)
+gh-pages/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Optional (if using SQLite locally)
+*.sqlite
+*.db
