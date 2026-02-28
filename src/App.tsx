@@ -253,7 +253,7 @@ export default function App() {
                         border-4 border-white/10"
             >
               <img 
-                src="./Game LOGO.png" 
+                src="./LOGO.png" 
                 alt="Suraj Patil - Guess Master" 
                 className="w-full h-full object-cover rounded-full"
                 referrerPolicy="no-referrer"
