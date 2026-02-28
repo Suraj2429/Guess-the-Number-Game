@@ -4,10 +4,12 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
+import logo from './assets/logo.png';
 import { motion, AnimatePresence } from 'motion/react';
 import { Trophy, RefreshCw, ChevronRight, Hash, History, Award, Sparkles, Zap, Mail, Linkedin, Github } from 'lucide-react';
 
 type GameStatus = 'playing' | 'won';
+
 
 interface GuessHistory {
   value: number;
@@ -252,11 +254,11 @@ export default function App() {
                         overflow-hidden 
                         border-4 border-white/10"
             >
-              <img 
-                src="./LOGO.png" 
-                alt="Suraj Patil - Guess Master" 
+              
+              <img
+                src={logo}
+                alt="Suraj Patil - Guess Master"
                 className="w-full h-full object-cover rounded-full"
-                referrerPolicy="no-referrer"
               />
             </motion.div>
           <h1 className="text-4xl font-black tracking-tighter mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-white/60">
